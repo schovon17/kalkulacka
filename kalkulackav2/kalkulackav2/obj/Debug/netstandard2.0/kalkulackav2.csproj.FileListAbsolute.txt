@@ -1,0 +1,14 @@
+D:\Ondra\Visual Studio Projects\kalkulackav2\kalkulackav2\kalkulackav2\bin\Debug\netstandard2.0\kalkulackav2.deps.json
+D:\Ondra\Visual Studio Projects\kalkulackav2\kalkulackav2\kalkulackav2\bin\Debug\netstandard2.0\kalkulackav2.dll
+D:\Ondra\Visual Studio Projects\kalkulackav2\kalkulackav2\kalkulackav2\bin\Debug\netstandard2.0\ref\kalkulackav2.dll
+D:\Ondra\Visual Studio Projects\kalkulackav2\kalkulackav2\kalkulackav2\bin\Debug\netstandard2.0\kalkulackav2.pdb
+D:\Ondra\Visual Studio Projects\kalkulackav2\kalkulackav2\kalkulackav2\obj\Debug\netstandard2.0\kalkulackav2.csprojAssemblyReference.cache
+D:\Ondra\Visual Studio Projects\kalkulackav2\kalkulackav2\kalkulackav2\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Ondra\Visual Studio Projects\kalkulackav2\kalkulackav2\kalkulackav2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Ondra\Visual Studio Projects\kalkulackav2\kalkulackav2\kalkulackav2\obj\Debug\netstandard2.0\kalkulackav2.AssemblyInfoInputs.cache
+D:\Ondra\Visual Studio Projects\kalkulackav2\kalkulackav2\kalkulackav2\obj\Debug\netstandard2.0\kalkulackav2.AssemblyInfo.cs
+D:\Ondra\Visual Studio Projects\kalkulackav2\kalkulackav2\kalkulackav2\obj\Debug\netstandard2.0\kalkulackav2.csproj.CoreCompileInputs.cache
+D:\Ondra\Visual Studio Projects\kalkulackav2\kalkulackav2\kalkulackav2\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Ondra\Visual Studio Projects\kalkulackav2\kalkulackav2\kalkulackav2\obj\Debug\netstandard2.0\kalkulackav2.dll
+D:\Ondra\Visual Studio Projects\kalkulackav2\kalkulackav2\kalkulackav2\obj\Debug\netstandard2.0\ref\kalkulackav2.dll
+D:\Ondra\Visual Studio Projects\kalkulackav2\kalkulackav2\kalkulackav2\obj\Debug\netstandard2.0\kalkulackav2.pdb

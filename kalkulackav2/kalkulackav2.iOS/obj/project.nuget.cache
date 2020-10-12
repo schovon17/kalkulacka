@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9lQUHBf7BJIapvcXonAJGBXB2c19ZK1r1CpuruyxVBqEge6K2/13f/bAIHueGPfsCMIO9fVCmQFDZcpvsMCyVg==",
+  "success": true,
+  "projectFilePath": "D:\\Ondra\\Visual Studio Projects\\kalkulackav2\\kalkulackav2\\kalkulackav2.iOS\\kalkulackav2.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+  ],
+  "logs": []
+}

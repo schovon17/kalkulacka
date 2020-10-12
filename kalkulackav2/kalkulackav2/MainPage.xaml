@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kalkulackav2.MainPage">
+
+
+   <StackLayout>
+        <!-- Určení grafiky -->
+        <Grid Padding="20">                         
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Určení čísel -->
+            <Label x:Name="cislo1"
+                       Text=""
+                       FontSize="Large"
+                       VerticalOptions="CenterAndExpand"
+                       Grid.Row="0" Grid.Column="0"
+                       HorizontalOptions="Center" />
+
+            <Label x:Name="cislo2"
+                       Text=""
+                       FontSize="Large"
+                       VerticalOptions="CenterAndExpand"
+                       Grid.Row="0" Grid.Column="1"
+                       HorizontalOptions="Center" />
+
+            <Button x:Name="c1"
+                        Text="1"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="1" Grid.Column="0"
+                        Clicked="napsat1" />
+
+            <Button x:Name="c2"
+                        Text="2"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="1" Grid.Column="1"
+                        Clicked="napsat2" />
+
+            <Button x:Name="c3"
+                        Text="3"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="1" Grid.Column="2"
+                        Clicked="napsat3" />
+
+            <Button x:Name="c4"
+                        Text="4"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="2" Grid.Column="0"
+                        Clicked="napsat4" />
+
+            <Button x:Name="c5"
+                        Text="5"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="2" Grid.Column="1"
+                        Clicked="napsat5" />
+
+            <Button x:Name="c6"
+                        Text="6"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="2" Grid.Column="2"
+                        Clicked="napsat6" />
+
+            <Button x:Name="c7"
+                        Text="7"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="3" Grid.Column="0"
+                        Clicked="napsat7" />
+
+            <Button x:Name="c8"
+                        Text="8"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="3" Grid.Column="1"
+                        Clicked="napsat8" />
+
+            <Button x:Name="c9"
+                        Text="9"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="3" Grid.Column="2"
+                        Clicked="napsat9" />
+
+            <Button x:Name="c0"
+                        Text="0"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="4" Grid.Column="0"
+                        Clicked="napsat0" />
+
+            <!-- Určení přepínání mezi čísly -->
+            <Label x:Name="zmena_label"
+                       Text="První"
+                       FontSize="Large"
+                       VerticalOptions="CenterAndExpand"
+                   Grid.Row="6" Grid.Column="0"
+                       HorizontalOptions="Center" />
+
+            <Label x:Name="zmena_label2"
+                       Text="číslo"
+                       FontSize="Large"
+                       VerticalOptions="CenterAndExpand"
+                   Grid.Row="6" Grid.Column="1"
+                       HorizontalOptions="Center" />
+            
+            <Button x:Name="zmena"
+                        Text="Změna"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="6" Grid.Column="2"
+                        Clicked="zmenacisla" />
+
+            <!-- výsledek -->
+            <Label x:Name="vysledek"
+                       Text=""
+                       FontSize="Large"
+                       VerticalOptions="CenterAndExpand"
+                   Grid.Row="0" Grid.Column="3"
+                       HorizontalOptions="Center" />
+
+
+            <Label x:Name="rovnase"
+                       Text=""
+                       FontSize="Large"
+                       VerticalOptions="CenterAndExpand"
+                   Grid.Row="0" Grid.Column="2"
+                       HorizontalOptions="Center" />
+
+            <!-- operace -->
+            <Button Text="+"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="1" Grid.Column="3"
+                        Clicked="scitani" />
+
+            <Button Text="-"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="2" Grid.Column="3"
+                        Clicked="odecitani" />
+
+            <Button Text="*"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="3" Grid.Column="3"
+                        Clicked="nasobeni" />
+
+            <Button Text="/"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="4" Grid.Column="3"
+                        Clicked="deleni" />
+
+            <Button Text="CC"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="4" Grid.Column="2"
+                        Clicked="smazanivysledku" />
+            
+            <Button Text="C"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                    Grid.Row="4" Grid.Column="1"
+                        Clicked="smazani" />
+            
+            <!-- Jsem si vědom toho, že nejsou ošetřeny opeace při nezadání čísla, ale nepřišel jsem co se používá místo isset nebo empty -->
+
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
+
+
+
+
+
